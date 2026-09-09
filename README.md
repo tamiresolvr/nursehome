@@ -8,6 +8,16 @@ Funcionalidades
 - Envio de mensagem via whatsapp diretamente para o paciente;
 - Armazenamento local;
 
+## 📱 Telas do app
+| Login | Medicamentos |
+|---|---|
+| ![Tela de Login](Login.jpg) | ![Medicamentos ](Paciente.jpg) |
+
+| Agendamento | Prontuário |
+|---|---|
+| ![Agendamento](Agendamento.jpg) | ![Prontuário](Prontuário.jpg) |
+
+
 Tecnologias
 - Flutter/Dart
 - `flutter_local_notifications` — notificações agendadas
