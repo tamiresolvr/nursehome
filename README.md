@@ -1,17 +1,32 @@
-# flutter_application_1
+NURSEHOME > o nome foi criado pensado em enfermagem no lar/cuidado no lar.
 
-A new Flutter project.
+O aplicativo foi desenvolvido pensando em práticas da rotina da enfermagem à domicílio.
 
-## Getting Started
+Funcionalidades
+- Cadastro e registro dos pacientes;
+- Agendamento de lembretes de medicação com notificação local;
+- Envio de mensagem via whatsapp diretamente para o paciente;
+- Armazenamento local;
 
-This project is a starting point for a Flutter application.
+Tecnologias
+- Flutter/Dart
+- `flutter_local_notifications` — notificações agendadas
+- `shared_preferences` — persistência local
+- `url_launcher` — integração com WhatsApp
+- `timezone` — cálculo correto de horários das notificações
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Como rodar o projeto
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+git clone https://github.com/tamiresolvr/nursehome.git
+cd nursehome/flutter_application_1
+flutter pub get
+flutter run
+```
+## 📱 Plataformas suportadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Android, iOS, Web, Windows, macOS e Linux (gerado pelo template padrão do Flutter).
+
+## 📄 Licença
+
+Projeto pessoal / educacional.
